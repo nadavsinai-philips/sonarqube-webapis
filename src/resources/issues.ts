@@ -114,7 +114,7 @@ export default class Issues {
       addTags,
       assign,
       comment,
-      do_transition:doTransition,
+      do_transition: doTransition,
       removeTags,
       setSeverity,
       setType,
