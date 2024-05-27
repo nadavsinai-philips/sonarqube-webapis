@@ -37,13 +37,13 @@
     "@istanbuljs/nyc-config-typescript": "^1.0.2",
     "@types/chai": "^4.3.3",
     "@types/mocha": "^10.0.0",
-    "@types/node": "^18.11.7",
+    "@types/node": "^20.12.12",
     "@types/sinon": "^10.0.13",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
     "@typescript-eslint/parser": "^5.41.0",
     "chai": "^4.3.6",
     "commitizen": "^4.2.5",
-    "coveralls": "^3.1.1",
+    "coveralls-next": "^4.2.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.26.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -67,5 +67,8 @@
   },
   "files": [
     "dist/src/*"
-  ]
+  ],
+  "volta": {
+    "node": "20.13.1"
+  }
 }
