@@ -33,6 +33,7 @@ jobs:
           coverage-reports: 'coverage/lcov.info'
       - name: Run Coveralls
         uses: coverallsapp/github-action@v2
+        with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           file: 'coverage/lcov.info'
           format: 'lcov'
